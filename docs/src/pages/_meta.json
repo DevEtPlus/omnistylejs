@@ -1,0 +1,14 @@
+{
+  "index": {
+    "title": "Introduction",
+    "theme": {
+      "typesetting": "article",
+      "breadcrumb": false,
+      "toc": false
+    }
+  },
+  "getting-started": "Getting Started",
+  "--1": {
+    "type": "separator"
+  }
+}

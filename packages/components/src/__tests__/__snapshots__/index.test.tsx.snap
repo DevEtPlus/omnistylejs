@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@omnistylejs/components Basic View render 1`] = `<View />`;

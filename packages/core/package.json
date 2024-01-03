@@ -1,0 +1,53 @@
+{
+  "name": "@omnistylejs/core",
+  "version": "0.1.0",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.18.2"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "git clean -xdf dist node_modules",
+    "dev": "tsup --watch",
+    "lint": "eslint \"**/*.{ts,tsx}\" --max-warnings 0",
+    "lint:fix": "eslint --fix \"**/*.{ts,tsx}\" --max-warnings 0",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-native": ">=0.71.1",
+    "react-native-web": ">=0.19.9"
+  },
+  "peerDependenciesMeta": {
+    "react-native-web": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "0.72.6",
+    "react-native-web": "^0.19.9",
+    "typescript": "5.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

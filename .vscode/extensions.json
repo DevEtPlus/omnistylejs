@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "wayou.vscode-todo-highlight",
+    "steoates.autoimport",
+    "davidanson.vscode-markdownlint",
+    "waderyan.gitblame",
+    "peterschmalfeldt.explorer-exclude",
+    "wilsonsio.color-vision"
+  ]
+}

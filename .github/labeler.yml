@@ -1,0 +1,5 @@
+'📚 documentation':
+  - any: ['docs/**', '!docs/**/package.json']
+
+'examples':
+  - any: ['examples/**', '!examples/**/package.json']
