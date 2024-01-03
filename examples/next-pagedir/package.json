@@ -10,8 +10,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "@omnistylejs/components": "~0.1.1",
-    "@omnistylejs/core": "~0.1.1",
+    "@omnistylejs/components": "~0.1.2",
+    "@omnistylejs/core": "~1.0.0",
     "next": "^14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
