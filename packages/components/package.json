@@ -1,6 +1,6 @@
 {
   "name": "@omnistylejs/components",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "engines": {
     "node": ">=18.18.2"
@@ -41,7 +41,7 @@
     }
   },
   "dependencies": {
-    "@omnistylejs/core": "~0.1.0"
+    "@omnistylejs/core": "~0.1.1"
   },
   "devDependencies": {
     "react": "^18.2.0",
