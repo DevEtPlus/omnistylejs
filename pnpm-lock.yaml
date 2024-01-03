@@ -148,10 +148,10 @@ importers:
         specifier: ^7.23.2
         version: 7.23.7
       '@omnistylejs/components':
-        specifier: ~0.1.1
+        specifier: ~0.1.2
         version: link:../../packages/components
       '@omnistylejs/core':
-        specifier: ~0.1.1
+        specifier: ~1.0.0
         version: link:../../packages/core
       expo:
         specifier: ^49.0.16
@@ -227,10 +227,10 @@ importers:
   examples/next-appdir:
     dependencies:
       '@omnistylejs/components':
-        specifier: ~0.1.1
+        specifier: ~0.1.2
         version: link:../../packages/components
       '@omnistylejs/core':
-        specifier: ~0.1.1
+        specifier: ~1.0.0
         version: link:../../packages/core
       next:
         specifier: ^14.0.4
@@ -258,10 +258,10 @@ importers:
   examples/next-pagedir:
     dependencies:
       '@omnistylejs/components':
-        specifier: ~0.1.1
+        specifier: ~0.1.2
         version: link:../../packages/components
       '@omnistylejs/core':
-        specifier: ~0.1.1
+        specifier: ~1.0.0
         version: link:../../packages/core
       next:
         specifier: ^14.0.4
@@ -289,7 +289,7 @@ importers:
   packages/components:
     dependencies:
       '@omnistylejs/core':
-        specifier: ~0.1.1
+        specifier: ~1.0.0
         version: link:../core
     devDependencies:
       react:
