@@ -55,7 +55,7 @@ jobs:
         uses: ./.github/actions/setup
 
       - name: Format
-        run: pnpm format:check
+        run: pnpm format
 
   typecheck:
     runs-on: ubuntu-latest
