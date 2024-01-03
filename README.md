@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/DevEtPlus/omnistylejs/blob/tree/main/assets/omnistylejs-logo-dark.svg">
-  <img src="https://github.com/DevEtPlus/omnistylejs/blob/tree/main/assets/omnistylejs-logo.svg" width="408" height="48" alt="Logo for OmniStyleJS">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DevEtPlus/omnistylejs/693a3aaf8301d8ee75cda257cfe65211b4825245/assets/omnistylejs-logo-dark.svg">
+  <img src="https://raw.githubusercontent.com/DevEtPlus/omnistylejs/693a3aaf8301d8ee75cda257cfe65211b4825245/assets/omnistylejs-logo.svg" width="408" height="48" alt="Logo for OmniStyleJS">
 </picture>
 </p>
 
