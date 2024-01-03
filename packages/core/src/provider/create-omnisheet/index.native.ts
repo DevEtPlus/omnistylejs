@@ -1,4 +1,4 @@
-import { Variables } from '../../types'
+import { Variables } from "../../types";
 
 export function createOmniSheet() {
   function addCSS(_id: string, _rule: string) {}
@@ -6,12 +6,12 @@ export function createOmniSheet() {
   function addColorVars(_colorVars?: Variables) {}
 
   function getStyleElement() {
-    return null
+    return null;
   }
 
   return {
     addCSS,
     addColorVars,
     getStyleElement,
-  }
+  };
 }

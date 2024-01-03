@@ -1,13 +1,13 @@
-import { WebDimensionValue } from '../../types'
+import { WebDimensionValue } from "../../types";
 
 export type BorderWidth = {
-  [key: string | number]: WebDimensionValue
-}
+  [key: string | number]: WebDimensionValue;
+};
 
 export const borderWidth = {
-  DEFAULT: '1px',
-  0: '0px',
-  2: '2px',
-  4: '4px',
-  8: '8px',
-} as const satisfies BorderWidth
+  DEFAULT: "1px",
+  0: "0px",
+  2: "2px",
+  4: "4px",
+  8: "8px",
+} as const satisfies BorderWidth;

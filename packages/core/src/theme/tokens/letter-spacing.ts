@@ -1,14 +1,14 @@
-import { WebDimensionValue } from '../../types'
+import { WebDimensionValue } from "../../types";
 
 export type LetterSpacing = {
-  [key: string | number]: WebDimensionValue
-}
+  [key: string | number]: WebDimensionValue;
+};
 
 export const letterSpacing = {
-  tighter: '-0.05em',
-  tight: '-0.025em',
-  normal: '0em',
-  wide: '0.025em',
-  wider: '0.05em',
-  widest: '0.1em',
-} as const satisfies LetterSpacing
+  tighter: "-0.05em",
+  tight: "-0.025em",
+  normal: "0em",
+  wide: "0.025em",
+  wider: "0.05em",
+  widest: "0.1em",
+} as const satisfies LetterSpacing;

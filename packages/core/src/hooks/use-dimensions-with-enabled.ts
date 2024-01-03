@@ -1,9 +1,9 @@
-import type { ScaledSize } from 'react-native'
-import { useEffect, useState } from 'react'
-import { Dimensions } from 'react-native'
+import { useEffect, useState } from "react";
+import type { ScaledSize } from "react-native";
+import { Dimensions } from "react-native";
 
 export function useDimensionsWithEnable(enable?: boolean) {
-  const [dimensions, setDimensions] = useState(() => Dimensions.get('window'))
+  const [dimensions, setDimensions] = useState(() => Dimensions.get("window"));
 
   useEffect(() => {
     if (enable) {
@@ -14,21 +14,21 @@ export function useDimensionsWithEnable(enable?: boolean) {
           dimensions.scale !== window.scale ||
           dimensions.fontScale !== window.fontScale
         ) {
-          setDimensions(window)
+          setDimensions(window);
         }
       }
 
-      const listener = Dimensions.addEventListener('change', handleChange)
+      const listener = Dimensions.addEventListener("change", handleChange);
 
-      handleChange({ window: Dimensions.get('window') })
+      handleChange({ window: Dimensions.get("window") });
 
       return () => {
-        listener.remove()
-      }
+        listener.remove();
+      };
     }
 
-    return () => {}
-  }, [dimensions, enable])
+    return () => {};
+  }, [dimensions, enable]);
 
-  return dimensions
+  return dimensions;
 }
